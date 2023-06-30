@@ -92,8 +92,9 @@
   },
   "devDependencies": {
     "@vitest/ui": "^0.31.1",
-    "autoprefixer": "^10",
+    "autoprefixer": "^10.4.14",
     "c8": "^7.14.0",
+    "postcss": "^8.4.24",
     "postcss-cli": "10.1.0",
     "postcss-import": "15.1.0",
     "prejss-cli": "0.3.3",
@@ -101,13 +102,14 @@
     "prettier-plugin-svelte": "^2.10.1",
     "rtlcss": "4.1.0",
     "standard-version": "^9.5.0",
+    "tailwindcss": "^3.3.2",
     "vitest": "^0.31.1"
   },
   "dependencies": {
     "colord": "^2.9",
     "css-selector-tokenizer": "^0.8",
     "postcss-js": "^4",
-    "tailwindcss": "^3"
+    "prism-svelte": "^0.5.0"
   },
   "peerDependencies": {
     "postcss": "^8"
